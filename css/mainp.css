@@ -1,0 +1,87 @@
+@import url(/css/tool.css);
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    height: 3000px;
+}
+
+.top_navi {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+}
+
+.Tlogo {
+    width: 120px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav_menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav_fn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.login_button {
+    border: 1px solid #6D19E0;
+    border-radius: 40px;
+    width: 96px;
+    height: 40px;
+    background-color: white;
+    color: #6D19E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    box-shadow: 0px 0px 4px 0px #6D19E0;
+}
+
+.login_button img {
+    width: 18px;
+}
+
+.support {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #0A0D14;
+    background-color: white;
+}
+
+.support img {
+    width: 20px;
+}
+
+.main_banner {
+    width: 100% !important;
+    margin-left: 0px !important;
+}

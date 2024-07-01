@@ -1,0 +1,146 @@
+@import url(/Web/css/tool.css);
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (min-width: 360px){
+    padding-left: 16px;
+}
+
+
+
+
+
+
+.container {
+    margin: 0 auto;
+    max-width: 384px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.login_style {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.user_login_on {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.line {
+    width: 107px;
+    border: 2px solid #6D19E0;
+    border-radius: 40px;
+}
+
+.social_login_off {
+    width: 100%;
+    text-align: center;
+    color: #CECED0;
+}
+
+.login_input {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input {
+    width: 100%;
+    height: 54px;
+    border: 1px solid #F8F8F9;
+    border-radius: 4px;
+    padding-left: 24px;
+    text-indent: 32px;
+}
+
+.login_id {
+    background: #f2f2f3 url(/Web//img/person.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-x: 16px;
+    background-position-y: center;
+}
+
+.login_pw {
+    background: #f2f2f3 url(/Web//img/lock.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-x: 16px;
+    background-position-y: center;
+    margin-bottom: 24px;
+}
+
+.login_sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.checkbox_label {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.checkbox_text {
+    color: #848689;
+}
+
+.id_pw_search {
+    color: #848689;
+}
+
+.login_button {
+    width: 100%;
+    height: 54px;
+    border: none;
+    background-color: #6D19E0;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.signin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 80px;
+}
+
+.warning {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    color: #848689;
+}
+
+.warning img {
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,95 @@
+body {
+    font-family: 'pretendard';
+    caret-color: #6D19E0;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -0.35px;
+}
+
+.bold {
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: -0.35px;
+}
+
+.regular {
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -0.35px;
+}
+
+.caption {
+    font-size: 12px;
+}
+
+.textSmall {
+    font-size: 14px;
+}
+
+.textMedium {
+    font-size: 16px;
+}
+
+.textLarge {
+    font-size: 18px;
+}
+
+.titleSmall {
+    font-size: 24px;
+}
+
+.titleMedium {
+    font-size: 28px;
+}
+
+.titleLarge {
+    font-size: 36px;
+}
+
+/* .checkBox {
+    appearance: none;
+    background-image: url(/img/check_off.png);
+    background-size: 24px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+}
+
+.checkBox:checked {
+    background-image: url(/img/check_on.png);
+    background-size: 24px;
+} */
+
+input[type='checkbox']{
+    display: none;
+}
+
+/* .checkbox_label{
+    display: inline-flex;
+    margin-left: 0px;
+    margin-bottom: 24px;
+} */
+
+.checkbox_icon::before{
+    content:'';
+    display: block;
+    /* margin-right: 16px; */
+    width: 24px;
+    height: 24px;
+    background: url(/Web/img/check_off.png);
+    background-size: 24px;
+    cursor: pointer;
+}
+
+.checkbox_label input:checked + .checkbox_icon::before{
+    background: url(/Web/img/check_on.png);
+    background-size: 24px;
+    border:none;
+}
+
+input:focus {
+    outline: 2px solid #6D19E0;
+    background-color: white;
+}
+
+
