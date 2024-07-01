@@ -1,17 +1,11 @@
-@import url(/Web/css/tool.css);
+@import url(/css/tool.css);
 
-@media screen and (max-width: 768px){
-    
-}
-
-@media screen and (min-width: 360px){
-    padding-left: 16px;
-}
-
-
-
-
-
+/* @media screen and (max-width: 768px){
+    body {
+        padding: 0px 16px;
+        background-color: #6D19E0;
+    }
+} */
 
 .container {
     margin: 0 auto;
@@ -76,7 +70,7 @@ input {
 }
 
 .login_id {
-    background: #f2f2f3 url(/Web//img/person.png);
+    background: #f2f2f3 url(/img/person.png);
     background-repeat: no-repeat;
     background-size: 24px;
     background-position-x: 16px;
@@ -84,7 +78,7 @@ input {
 }
 
 .login_pw {
-    background: #f2f2f3 url(/Web//img/lock.png);
+    background: #f2f2f3 url(/img/lock.png);
     background-repeat: no-repeat;
     background-size: 24px;
     background-position-x: 16px;
