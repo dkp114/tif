@@ -1,18 +1,19 @@
 @import url(/css/tool.css);
 
+
 @media screen and (max-width: 768px) {
     body {
         padding: 0px 16px;
     }
 
-    .user_login_on {
+    .user_login_off {
         font-size: 18px;
         font-weight: 700;
         line-height: 160%;
         letter-spacing: -0.35px;
     }
 
-    .social_login_off {
+    .social_login_on {
         font-size: 18px;
         font-weight: 700;
         line-height: 160%;
@@ -55,13 +56,13 @@
     margin-bottom: 40px;
 }
 
-.user_login_on {
+.user_login_off {
     width: 100%;
+    text-align: center;
+    color: #CECED0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
-    text-align: center;
 }
 
 .line {
@@ -71,77 +72,67 @@
     border-radius: 40px;
 }
 
-.social_login_off {
+.social_login_on {
     width: 100%;
-    text-align: center;
-    color: #CECED0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8px;
+    text-align: center;
 }
 
-.login_input {
+.social_login {
     display: flex;
     flex-direction: column;
     gap: 16px;
-}
-
-input {
-    width: 100%;
-    height: 54px;
-    border: 1px solid #F8F8F9;
-    border-radius: 4px;
-    padding-left: 24px;
-    text-indent: 32px;
-}
-
-.login_id {
-    background: #f2f2f3 url(/img/person.png);
-    background-repeat: no-repeat;
-    background-size: 24px;
-    background-position-x: 16px;
-    background-position-y: center;
-}
-
-.login_pw {
-    background: #f2f2f3 url(/img/lock.png);
-    background-repeat: no-repeat;
-    background-size: 24px;
-    background-position-x: 16px;
-    background-position-y: center;
-    margin-bottom: 24px;
-}
-
-.login_sub {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     margin-bottom: 40px;
 }
 
-.checkbox_label {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: center;
-}
-
-.checkbox_text {
-    color: #848689;
-}
-
-.id_pw_search {
-    color: #848689;
-}
-
-.login_button {
-    width: 100%;
+button {
     height: 54px;
     border: none;
-    background-color: #6D19E0;
-    color: white;
     border-radius: 4px;
-    margin-bottom: 40px;
+}
+
+.N {
+    background-color: #00C300;
+    color:  white;
+    background-image: url(/img/네이버\ 로고.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-y: center;
+    background-position-x: 24px;
+}
+
+.K {
+    background-color: #FAE100;
+    color:  black;
+    background-image: url(/img/카카오톡\ 로고.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-y: center;
+    background-position-x: 24px;
+}
+
+.A {
+    background-color: black;
+    color:  white;
+    background-image: url(/img/Frame\ 1707482155.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-y: center;
+    background-position-x: 24px;
+}
+
+.G {
+    background-color: white;
+    color:  black;
+    background-image: url(/img/Frame\ 1707482150.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-y: center;
+    background-position-x: 24px;
+    border: 1px solid #F2F2F3;
 }
 
 .signin {
