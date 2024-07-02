@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+    width: 100%;
 }
 
 .accent_color {
@@ -70,13 +71,13 @@ input[type='checkbox']{
     display: block;
     width: 24px;
     height: 24px;
-    background: url(/img/check_off.png);
+    background: url(../img/check_off.png);
     background-size: 24px;
     cursor: pointer;
 }
 
 .checkbox_label input:checked + .checkbox_icon::before{
-    background: url(/img/check_on.png);
+    background: url(../img/check_on.png);
     background-size: 24px;
     border:none;
 }

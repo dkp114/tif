@@ -1,4 +1,4 @@
-@import url(/css/tool.css);
+@import url(../css/tool.css);
 
 @media screen and (max-width: 768px) {
     body {
@@ -25,6 +25,10 @@
         border: 2px solid #6D19E0;
         border-radius: 40px;
     }
+
+    .logo {
+        width: 96px;
+    }
 }
 
 .container {
@@ -36,15 +40,32 @@
     width: 100%;
 }
 
-.logo {
+.header {
     display: flex;
-    justify-content: center;
-    margin: 40px 0px;
+    flex-direction: row;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 54px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.logo img {
+.back {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.logo {
     max-width: 120px;
-    width: 100%;
+    /* margin: 0 auto; */
+}
+
+.cancel {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    visibility: hidden;
 }
 
 .login_style {
@@ -96,7 +117,7 @@ input {
 }
 
 .login_id {
-    background: #f2f2f3 url(/img/person.png);
+    background: #f2f2f3 url(../img/person.png);
     background-repeat: no-repeat;
     background-size: 24px;
     background-position-x: 16px;
@@ -104,7 +125,7 @@ input {
 }
 
 .login_pw {
-    background: #f2f2f3 url(/img/lock.png);
+    background: #f2f2f3 url(../img/lock.png);
     background-repeat: no-repeat;
     background-size: 24px;
     background-position-x: 16px;
@@ -150,6 +171,7 @@ input {
     justify-content: center;
     gap: 8px;
     margin-bottom: 80px;
+    color: #9D9EA1;
 }
 
 .warning {
