@@ -6,6 +6,19 @@
     }
 }
 
+@media screen and (max-width: 860px){
+    .game_section {
+        margin: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .game_button {
+        justify-content: end;
+    }
+}
+
 header {
     width: 100%;
 }
@@ -101,8 +114,12 @@ li {
     margin-top: 80px;
 }
 
+.main_title {
+    padding-bottom: 16px;
+}
+
 .main_title img {
-    width: 433px;
+    height: 40px;
 }
 
 .service_game_wrapper {
@@ -114,7 +131,7 @@ li {
 }
 
 .game_gird {
-    background-color: #F8F8F9;
+    background-color: #F2F2F3;
     border-radius: 12px;
 }
 
@@ -142,10 +159,205 @@ li {
 
 .game_button {
     display: flex;
+    flex-direction: row;
     gap: 8px;
 }
 
 .game_button img {
     width: 40px;
     height: 40px;
+}
+
+.sub_banner {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 80px 0px;
+}
+
+.sub_banner img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.new_trade {
+    width: 100%;
+    margin-bottom: 80px;
+    }
+
+.new_trade_wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(1, auto);
+    grid-gap: 24px;
+}
+
+.trade_gird img{
+    width: 100%;
+    border-radius:8px;
+}
+
+.trade_section {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 24px 0px;
+}
+
+.trade_section :nth-child(3) {
+    color: #B5B6B8;
+}
+
+.game_server {
+    background-color: #6D19E0;
+    color: white;
+    border-radius: 4px;
+    width: 60px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.time :nth-child(2) {
+    color: #9D9EA1;
+}
+
+.time img {
+    width: 16px;
+    height: 16px;
+}
+
+.pagenation {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.pagenation img {
+    width: 40px;
+}
+
+.small_banner {
+    width: 100%;
+    background-color: #336FE7;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.small_banner_left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 16px;
+}
+
+.small_banner img {
+    width: 40px;
+    height: 40px;
+}
+
+.banner_left_text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: white;
+}
+
+.small_banner_right {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.small_banner_right img{
+    width: 24px;
+    height: 24px;
+}
+
+.trust_t {
+    width: 100%;
+    margin-bottom: 80px;
+    }
+
+.trust_wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(1, auto);
+    grid-gap: 24px;
+}
+
+.trust_grid {
+    border: 1px solid white;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08), 0px 0px 8px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+}
+
+.trust_section {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trust_section_left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.trust_section_left :nth-child(2) {
+    color: #848689;
+}
+
+.trust_section_right img {
+    width: 64px;
+}
+
+.notice {
+    background-color: #F8F8F9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 16px 24px 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.notice_left {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.notice_img img {
+    width: 24px;
+    margin-right: 16px;
+}
+
+.notice_right {
+    display: flex;
+    align-items: center;
+}
+
+.notice_right img {
+    width: 24px;
 }
