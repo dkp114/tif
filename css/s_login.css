@@ -118,7 +118,7 @@ button {
 .N {
     background-color: #00C300;
     color:  white;
-    background-image: url(../img/네이버\ 로고.png);
+    background-image: url(../img/Naver.png);
     background-repeat: no-repeat;
     background-size: 24px;
     background-position-y: center;
@@ -128,7 +128,7 @@ button {
 .K {
     background-color: #FAE100;
     color:  black;
-    background-image: url(../img/카카오톡\ 로고.png);
+    background-image: url(../img/Kakao.png);
     background-repeat: no-repeat;
     background-size: 24px;
     background-position-y: center;
@@ -138,7 +138,7 @@ button {
 .A {
     background-color: black;
     color:  white;
-    background-image: url(../img/Frame\ 1707482155.png);
+    background-image: url(../img/Apple.png);
     background-repeat: no-repeat;
     background-size: 24px;
     background-position-y: center;
@@ -148,7 +148,7 @@ button {
 .G {
     background-color: white;
     color:  black;
-    background-image: url(../img/Frame\ 1707482150.png);
+    background-image: url(../img/Google.png);
     background-repeat: no-repeat;
     background-size: 24px;
     background-position-y: center;
