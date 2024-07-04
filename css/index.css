@@ -73,13 +73,89 @@
         display: none !important;
     }
 
-
     .main_bannerM {
         display: block !important;
     }
 
     .main_bannerM img {
         width: 100%;
+    }
+
+    .main_title img {
+        height: 32px !important;
+    }
+
+    .M_service_game_wrapper {
+        width : 100%;
+        display: grid !important;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(1, auto);
+        grid-gap: 8px;
+        overflow: scroll;
+    }
+    
+    .M_game_grid1 {
+        background-image: url(../img/lineageM_M.png);
+        background-size: cover;
+        width: 272px;
+        height: 164px;
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+    }
+    
+    .M_game_grid2 {
+        background-image: url(../img/lineageW_M.png);
+        background-size: cover;
+        width: 272px;
+        height: 164px;
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+    }
+    
+    .M_game_grid3 {
+        background-image: url(../img/lineage2M_M.png);
+        background-size: cover;
+        width: 272px;
+        height: 164px;
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+    }
+    
+    .M_game_section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 16px 8px 16px;
+    }
+    
+    .M_game_title {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .M_game_title :nth-child(2) {
+        color: #9D9EA1;
+    }
+    
+    .M_game_button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .M_game_button img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .service_game_wrapper {
+        display: none !important;
     }
 }
 
@@ -206,20 +282,25 @@ li {
     height: 40px;
 }
 
-.service_game_wrapper {
+.service_game {
     width: 100%;
+}
+
+.service_game_wrapper {
+    width : 100%;
     display: grid;
     grid-template-columns: repeat(3,auto);
     grid-template-rows: repeat(1, auto);
     grid-gap: 24px;
+    overflow: hidden;
 }
 
-.game_gird {
+.game_grid {
     background-color: #F2F2F3;
     border-radius: 12px;
 }
 
-.game_gird img{
+.game_grid img{
     width: 100%;
     border-radius: 12px 12px 0px 0px;
 }
@@ -252,6 +333,75 @@ li {
     height: 40px;
 }
 
+.M_service_game_wrapper {
+    width : 100%;
+    display: none;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(1, auto);
+    grid-gap: 8px;
+    overflow: scroll;
+}
+
+.M_game_grid1 {
+    background-image: url(../img/lineageM_M.png);
+    background-size: cover;
+    width: 272px;
+    height: 164px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.M_game_grid2 {
+    background-image: url(../img/lineageW_M.png);
+    background-size: cover;
+    width: 272px;
+    height: 164px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.M_game_grid3 {
+    background-image: url(../img/lineage2M_M.png);
+    background-size: cover;
+    width: 272px;
+    height: 164px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.M_game_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 16px 8px 16px;
+}
+
+.M_game_title {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.M_game_title :nth-child(2) {
+    color: #9D9EA1;
+}
+
+.M_game_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.M_game_button img {
+    width: 28px;
+    height: 28px;
+}
+
 .sub_banner {
     width: 100%;
     height: auto;
@@ -275,6 +425,7 @@ li {
     grid-template-columns: repeat(4,auto);
     grid-template-rows: repeat(1, auto);
     grid-gap: 24px;
+    overflow: hidden;
 }
 
 .trade_gird img{
@@ -384,6 +535,7 @@ li {
     grid-template-columns: repeat(3,auto);
     grid-template-rows: repeat(1, auto);
     grid-gap: 24px;
+    overflow: hidden;
 }
 
 .trust_grid {
