@@ -31,29 +31,24 @@
     }
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 384px;
-}
-
-.wrapper {
+header {
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    margin-bottom: 40px;
-    width: 100%;
+    max-width: 588px;
     height: 54px;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .back {
-    width: 40px;
-    height: 40px;
-    position: relative;
+    max-width: 40px;
+    max-height: 40px;
 }
 
 .logo {
@@ -62,10 +57,18 @@
 }
 
 .cancel {
-    width: 40px;
-    height: 40px;
-    position: relative;
+    max-width: 40px;
+    max-height: 40px;
     visibility: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 384px;
+}
+
+.wrapper {
+    width: 100%;
 }
 
 .login_style {
@@ -85,7 +88,7 @@
     text-align: center;
 }
 
-.line {
+.line_s {
     max-width: 107px;
     width: 100%;
     border: 2px solid #6D19E0;

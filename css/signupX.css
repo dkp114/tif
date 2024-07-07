@@ -1,0 +1,400 @@
+@import url("../css/tool.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    max-width: 588px;
+    height: 54px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.back {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.logo {
+    max-width: 120px;
+    /* margin: 0 auto; */
+}
+
+.cancel {
+    max-width: 40px;
+    max-height: 40px;
+    visibility: hidden;
+}
+
+
+.accent_color {
+    color: #6D19E0;
+}
+
+.header {
+    width: 588px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header img {
+    width: 120px;
+    margin-left: 0px;
+}
+
+.wrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup_process {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.processbox_on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 12px 24px;
+    border: 1px solid #6D19E0;
+    border-radius: 40px;
+    gap: 8px;
+}
+
+.processnumber_on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    background-color: #6D19E0;
+    color: white;
+    border-radius: 40px;
+    margin: 0;
+}
+
+.processtext_on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6D19E0;
+    margin: 0;
+}
+
+.arrow_on{
+    width: 24px;
+    height: 24px;
+}
+
+.processbox_off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 40px;
+    gap: 8px;
+    background-color: #F2F2F3;
+}
+
+.processnumber_off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: #B5B6B8;
+    color: white;
+    border-radius: 40px;
+}
+
+.processtext_off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B5B6B8;
+}
+
+.arrow_off{
+    width: 24px;
+    height: 24px;
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 588px;
+}
+
+.container_ex {
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+
+.userchoice {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.userbox {
+    width: 100%;
+    border: 1px solid #F2F2F3;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px 0px;
+}
+
+.userbox:hover {
+    border: 1px solid #6D19E0;
+    color: #6D19E0;
+}
+
+.userchoice img {
+    width: 64px;
+    height: 64px;
+}
+
+.userchoice_ex {
+    color: #848689;
+    width: 100%;
+    margin: 40px 0px 40px 0px;
+}
+
+.signup_term {
+    width: 100%;
+}
+
+hr {
+    margin: 16px 0px 40px 0px;
+    border: 1px solid #F2F2F3;
+    width: 100%;
+}
+
+.checkbox_label{
+    display: inline-flex;
+    margin-left: 0px;
+    margin-bottom: 24px;
+}
+
+.checkbox_text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16px;
+}
+
+.signup_term_sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox_text_sub {
+    color: #848689;
+}
+
+.button_off {
+    width: 100%;
+    height: 54px;
+    border: none;
+    background-color: #EBD0FD;
+    border-radius: 4px;
+    color: white;
+}
+
+.userchoice_text {
+    width: 384px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.signup_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 24px;
+}
+
+.signup_form_text {
+    width: 102px;
+}
+
+.textinput {
+    width: 384px;
+    height: 54px;
+    border: 1px solid #f8f8f9;
+    background: #F2F2F3;
+    border-radius: 4px;
+    padding: 24px;
+}
+
+.birthinput {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between;
+    width: 384px; */
+}
+
+.textinput_birth {
+    width: 97px;
+    height: 54px;
+    border: 1px solid #f8f8f9;
+    background: #F2F2F3;
+    border-radius: 4px;
+    padding: 24px;
+    margin-left: 0px;
+}
+
+.birthinput span {
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    margin-right: 24px;
+}
+
+.verify {
+    border: 1px solid #6D19E0;
+    border-radius: 4px;
+    background-color: white;
+    color: #6D19E0;
+    width: 78px;
+    height: 54px;
+    margin-left: 24px;
+}
+
+.signup_form_caption {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.input_caption {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 126px;
+    gap: 24px;
+    color: #6D19E0;
+    margin-bottom: 24px;
+}
+
+.inputemail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.emailinput {
+    width: 180px;
+    height: 54px;
+    border: 1px solid #f8f8f9;
+    background: #F2F2F3;
+    border-radius: 4px;
+    padding: 24px;
+}
+
+.emailselect {
+    width: 384px;
+    height: 54px;
+    border: 1px solid #f8f8f9;
+    background-color: #F2F2F3;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+
+select {
+    appearance: none;
+    background-image: url(/img/arrow_drop_down.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-right: 0px;
+    background-position: center right 8px;
+}
+
+select:focus {
+    outline: 2px solid #6D19E0;
+    background-color: white;
+}
+
+.signup_form_ex {
+    /* display: flex;
+    flex-direction: row; */
+    margin-left: 0px;
+}
+
+.checkbox_text_ex {
+    margin-left: 8px;
+}
+
+.form_ex {
+    display: flex;
+    color: #848689;
+    margin-left: 32px;
+    margin-bottom: 40px
+}
+
+.confirm_img {
+    width: 80px;
+    margin: 40px 0px 24px 0px;
+}
+
+.text_ex {
+    text-align: center;
+    color: #848689;
+    margin-top: 8px;
+}
+
+.button_two {
+    display: flex;
+    width: 100%;
+    height: 54px;
+    gap: 24px;
+    margin-top: 80px;
+}
+
+.button_confirm {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #6D19E0;
+}
+
+.button_confirm_sub {
+    width: 100%;
+    border: 1px solid #6D19E0;
+    border-radius: 4px;
+    color: #6D19E0;
+    background-color:  white
+}
