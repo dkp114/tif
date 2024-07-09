@@ -2,6 +2,9 @@
     box-sizing: border-box;
     font-family: 'pretendard';
     caret-color: #6D19E0;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.35px;
 }
 
 body {
@@ -97,4 +100,104 @@ select {
     background-size: 24px;
     margin-right: 0px;
     background-position: center right 8px;
+}
+
+
+
+
+footer {
+    width: 100%;
+    background-color: #0A0D14;
+    margin-top: 80px;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px;
+}
+
+.footer_support_top {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.footer_support_top :nth-child(1) {
+    color: #848689;
+}
+
+.footer_support_bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.footer_kakao {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_kakao img {
+    width: 18px;
+    height: 18px;
+}
+
+.footer_kakao :nth-child(1) {
+    color: #848689;
+}
+
+.kakao_support {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    color: white;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.line_B {
+    width: 100%;
+    height: 1px;
+    background-color: #3B3D43;
+    border-radius: 40px;
+    margin: 24px 0px;
+}
+
+.footer_fnc {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.footer_fnc button {
+    border: 1px solid white;
+    color: white;
+    background-color: #0A0D14;
+    border-radius: 40px;
+    padding: 4px 16px;
+}
+
+.company_text {
+    color: #848689;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.copyright {
+    color: white;
+    margin-bottom: 16px;
+}
+
+.warning {
+    color: #EBD0FD;
 }

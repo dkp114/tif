@@ -38,7 +38,6 @@ header {
     margin-bottom: 80px;
 }
 
-
 .login_style {
     width: 100%;
     display: flex;
@@ -78,9 +77,8 @@ header {
     gap: 24px;
 }
 
-.form_sub {
+.form_sub_cap {
     width: 100%;
-    height: 54px;
     display: flex;
     flex-direction: row;
     gap: 8px;
@@ -88,9 +86,23 @@ header {
     flex-wrap: wrap;
 }
 
+.form_caption {
+    margin-left: 126px;
+    color: #9D9EA1;
+}
+
 .form_text {
     min-width: 78px;
     margin-right: 16px;
+}
+
+.form_sub_cap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .form_input {
@@ -108,53 +120,6 @@ header {
     flex-direction: row;
     height: 100%;
     gap: 24px;
-}
-
-.email_select {
-    width: 282px;
-    height: 54px;
-    border: 1px solid #f8f8f9;
-    background-color: #F2F2F3;
-    border-radius: 4px;
-    text-indent: 24px;
-}
-
-
-.verify {
-    border: 1px solid #6D19E0;
-    border-radius: 4px;
-    background-color: white;
-    color: #6D19E0;
-    min-width: 78px;
-    height: 54px;
-}
-
-.form_sub_cap {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.form_input_n {
-    border: 1px solid #F8F8F9;
-    background: #F8F8F9;
-    border-radius: 4px;
-    height: 54px;
-    width: 282px;
-    text-indent: 24px;
-}
-
-.form_input_n::placeholder {
-    color: #E6E6E7;
-}
-
-.form_caption {
-    margin-left: 126px;
-    color: #9D9EA1;
-    text-decoration: underline;
 }
 
 .button_off {
