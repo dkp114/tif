@@ -105,6 +105,177 @@ select {
 
 
 
+
+
+/* @@ 헤더 @@ */
+
+header {
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08), 0px 0px 8px 0px rgba(0, 0, 0, 0.04);
+    z-index: 9999;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav_menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav_fn {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #6D19E0;
+    border-radius: 40px;
+    gap: 4px;
+    box-shadow: 0px 0px 4px 0px rgba(109, 25, 224, 0.40);
+    background-color: white;
+    width: 96px;
+    height: 40px;
+}
+
+.login img {
+    width: 18px;
+}
+
+.support {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.support img {
+    width: 20px;
+}
+
+.ham_menu img{
+    display: none;
+}
+
+.headerM {
+    width: 100%;
+    margin-bottom: 24px;
+    display: none;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 54px;
+    z-index: 999;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 588px;
+    height: 54px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.back {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.cancel {
+    max-width: 40px;
+    max-height: 40px;
+    visibility: hidden;
+}
+
+.op2 {
+    opacity: 0.2;
+}
+
+.op4 {
+    opacity: 0.4;
+}
+
+
+@media screen and (max-width: 768px) and (min-width:320px){
+
+    header {
+        display: none ;
+    }
+
+    .logo img {
+        width: 80px ;
+    }
+
+    .nav_menu {
+        display: none ;
+    }
+
+    .nav_fn {
+        display: none ;
+    }
+
+    .ham_menu img {
+        display: block ;
+        width: 24px;
+        height: 24px;
+    }
+
+    .header1 {
+        max-width: 768px ;
+    }
+
+    .header {
+        display: none ;
+    }
+
+    .headerM{
+        display: block ;
+    }
+
+}
+
+
+
+/* @@ 푸터 @@ */
+
 footer {
     width: 100%;
     background-color: #0A0D14;

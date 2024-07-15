@@ -92,11 +92,6 @@ li {
     width: 100%;
     margin-bottom: 24px;
     display: none;
-    position: sticky;
-    top: 0;
-    background-color: white;
-    height: 54px;
-    z-index: 999;
 }
 
 .header1 {
@@ -179,6 +174,7 @@ li {
 
 .support_menu img {
     width: 40px;
+    
 }
 
 .menu_sub {
@@ -188,6 +184,20 @@ li {
     gap: 4px;
     width: 100%;
     text-align: center;
+}
+
+.menu_sub2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.2;
+}
+
+.opacity {
+    opacity: 0.2;
 }
 
 .line_h {
@@ -204,87 +214,6 @@ li {
     display: none;
 }
 
-
-.qna {
-    width: 100%;
-}
-
-.qna_title {
-    width: 100%;
-    margin-bottom: 16px;
-}
-
-.qna_grid {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4,auto);
-    grid-template-rows: repeat(2, auto);
-    gap: 24px;
-}
-
-
-
-.qna_area {
-    border: 1px solid #F2F2F3 ;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 8px;
-    padding: 24px;
-}
-
-
-
-
-
-/* 
-.qna_table {
-    border-bottom: 1px solid #F2F2F3;
-    padding: 16px 24px 16px 0px;
-}
-
-.qna_txt {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.qna_type {
-    /* border: 1px solid #6D19E0;
-    border-radius: 4px;
-    width: 120px;
-    text-align: center;
-    padding: 8px;
-    margin-right: 40px;
-}
-
-.qna_txt span {
-    width: 912px;
-    margin-right: 40px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.qna_txt img {
-    width: 24px;
-} */
-
-
-.sub_banner {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    margin: 80px 0px;
-}
-
-.sub_banner img {
-    width: 100%;
-    border-radius: 12px;
-}
 
 .notice {
     width: 100%;
@@ -308,7 +237,7 @@ li {
 }
 
 .number {
-    width: 24px;
+    width: 80px;
     margin-right: 40px;
     text-align: center;
 }
@@ -328,11 +257,44 @@ li {
     text-align: right;
 }
 
+.pagenation {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
 
+.pagenation img {
+    width: 24px;
+}
 
+.page_number {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
 
+.page_number_ckd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: #6D19E0;
+    border-radius: 40px;
+    color: white;
+}
 
-
+.page_number_num {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -359,14 +321,6 @@ li {
 
     footer {
         padding: 0px 16px;
-    }
-
-    .qna_area span {
-        text-overflow: ellipsis;
-        overflow: hidden;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
     }
 
 }
@@ -425,42 +379,9 @@ li {
         height: 24px;
     }
 
-    .qna_type {
-        display: none;
-    }
-
-    .qna_grid {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(8,auto);
-        grid-template-rows: repeat(1, auto);
-        gap: 8px;
-        overflow: scroll;
-    }
-
-    .qna_area {
-        min-width: 216px;
-        padding: 24px 16px;
-    }
-
-    .qna_area span {
-        text-overflow: ellipsis;
-        overflow: hidden;
-        /* display: -webkit-box; */
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-    }
-
-    .number {
-        display: none;
-    }
-
-    .notice_txt span {
-        margin-right: 8px;
-    }
-
-    .menu_sub span {
-        font-size: 14px;
+    .line {
+        margin: 40px 0px;
+        display: block;
     }
 
     .support_displayM {
@@ -486,15 +407,32 @@ li {
         gap: 8px;
     }
 
-    .menu_subM img {
+    .menu_subM2 {
+        width: 140px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+        opacity: 0.4;
+    }
+
+    .support_displayM img {
         width: 24px;
     }
 
-    .line {
-        margin: 40px 0px;
-        display: block;
+    .number {
+        margin-right: 8px;
+        font-size: 12px;
     }
 
+    .notice_txt span {
+        margin-right: 8px;
+    }
+
+    .notice_time {
+        width: 80px;
+    }
 
 
 }

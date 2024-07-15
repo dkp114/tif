@@ -93,6 +93,11 @@ li {
     width: 100%;
     margin-bottom: 24px;
     display: none;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 54px;
+    z-index: 999;
 }
 
 .header1 {
@@ -240,7 +245,7 @@ li {
 .notice_ans {
     background-color: #F8F8F9;
     border-bottom: #F2F2F3;
-    padding: 24px 64px;
+    padding: 24px 24px;
     width: 100%;
 }
 
